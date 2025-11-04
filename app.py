@@ -150,7 +150,7 @@ with col3:
 
 with col4:
     st.metric(
-        "BTC Oracle Price", 
+        "ETH Oracle Price", 
         f"${latest['btc_price']:,.2f}",
         delta=f"${latest['btc_price'] - display_df['btc_price'].iloc[-2]:+.2f}" if len(display_df) > 1 else None
     )
